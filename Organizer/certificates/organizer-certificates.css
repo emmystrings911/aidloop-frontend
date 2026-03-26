@@ -1,0 +1,186 @@
+/* Page background */
+.page-content{
+background:#f5f7fb;
+}
+
+
+/* =========================
+STATS CARDS
+========================= */
+
+.stats-grid{
+display:flex;
+gap:20px;
+margin-bottom:30px;
+}
+
+.stat-card{
+background:#fff;
+border-radius:14px;
+padding:18px 24px;
+box-shadow:0 4px 12px rgba(0,0,0,0.06);
+min-width:200px;
+}
+
+.stat-card p{
+font-size:13px;
+color:#7a869a;
+margin-bottom:6px;
+}
+
+.stat-card h3{
+font-size:22px;
+font-weight:600;
+color:#1f2f46;
+}
+
+
+/* =========================
+TABLE
+========================= */
+
+.table-wrapper{
+background:#fff;
+border-radius:16px;
+overflow:hidden;
+box-shadow:0 4px 16px rgba(0,0,0,0.06);
+}
+
+table{
+width:100%;
+border-collapse:collapse;
+}
+
+thead{
+background:#f1f4f9;
+}
+
+th{
+padding:16px;
+font-size:14px;
+color:#41546f;
+font-weight:600;
+}
+
+td{
+padding:16px;
+font-size:14px;
+color:#1f2f46;
+}
+
+tbody tr{
+border-bottom:1px solid #e8edf3;
+}
+
+tbody tr:hover{
+background:#f9fbff;
+}
+
+
+/* =========================
+PERSON CELL
+========================= */
+
+.person-cell{
+display:flex;
+align-items:center;
+gap:10px;
+}
+
+.avatar{
+width:36px;
+height:36px;
+border-radius:50%;
+object-fit:cover;
+background:#ddd;
+}
+
+
+/* =========================
+STATUS BADGES
+========================= */
+
+.status-badge{
+padding:6px 14px;
+border-radius:8px;
+font-size:13px;
+font-weight:600;
+display:inline-block;
+}
+
+.status-issued{
+background:#e7f6ee;
+color:#2e8b57;
+}
+
+.status-pending{
+background:#fff2df;
+color:#d68910;
+}
+
+
+/* =========================
+ACTION BUTTON
+========================= */
+
+.download-btn{
+background:#2e8b57;
+color:white;
+border:none;
+padding:6px 12px;
+border-radius:6px;
+font-size:13px;
+cursor:pointer;
+}
+
+.download-btn:hover{
+background:#256f47;
+}
+
+
+/* =========================
+TABLE FOOTER
+========================= */
+
+#tableCountText{
+margin-top:12px;
+font-size:14px;
+color:#6b7280;
+}
+
+
+.stat-card{
+display:flex;
+align-items:center;
+gap:16px;
+padding:18px 22px;
+background:white;
+border-radius:12px;
+box-shadow:0 2px 8px rgba(0,0,0,0.05);
+}
+
+.stat-icon{
+width:40px;
+height:40px;
+display:flex;
+align-items:center;
+justify-content:center;
+border-radius:10px;
+font-size:18px;
+}
+
+.stat-icon.trophy{
+background:#fff5d6;
+color:#e6b800;
+}
+
+.stat-icon.issued{
+background:#e7f8ee;
+color:#16a34a;
+}
+
+.stat-icon.pending{
+background:#fdecec;
+color:#ef4444;
+}
+
